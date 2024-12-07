@@ -1,0 +1,552 @@
+
+.logo{
+    width: 200px;
+    margin-left: 250px;
+    margin-top: 15px;
+}
+.NavBar{
+    background: rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    position: sticky;  
+    top: 0;
+    z-index: 2;
+}
+.NavMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn2 {
+    margin-top: 10px;
+    width: 85px;
+    height: 35px;
+    border: none;
+    margin-right: 250px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    background-color: white(252, 252, 252);
+    color: #5f2696;
+    border: 2px solid #5f2696;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: sans-serif;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1; 
+}
+.btn2:hover{
+    color: white;
+}
+.btn2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #5f2696; 
+    z-index: -1;
+    transition: height 0.8s ease; 
+    border-radius: 50% 50% 0 0; 
+}
+.btn2:hover::before{
+    height: 180%;
+}
+
+
+.btn1 {
+    margin-top: 10px;
+    width: 85px;
+    height: 35px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 15px;
+    background-color: white;
+    color: #5f2696;
+    border: 2px solid #5f2696;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: sans-serif;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1; 
+}
+.btn1:hover{
+    color: white;
+}
+.btn1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #5f2696; 
+    z-index: -1;
+    transition: height 0.8s ease; 
+    border-radius: 50% 50% 0 0; 
+}
+.btn1:hover::before{
+    height: 180%;
+}
+
+
+.btn3 {
+    margin-top: 10px;
+    width: 85px;
+    height: 35px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 15px;
+    background-color: white;
+    color: #5f2696;
+    border: 2px solid #5f2696;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: sans-serif;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1; 
+}
+.btn3:hover{
+    color: white;
+}
+.btn3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #5f2696; 
+    z-index: -1;
+    transition: height 0.8s ease; 
+    border-radius: 50% 50% 0 0; 
+}
+.btn3:hover::before{
+    height: 180%;
+}
+
+.btn4 {
+    margin-top: 10px;
+    width: 85px;
+    height: 35px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 15px;
+    background-color: white;
+    color: #5f2696;
+    border: 2px solid #5f2696;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: sans-serif;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1; 
+}
+.btn4:hover{
+    color: white;
+}
+.btn4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #5f2696; 
+    z-index: -1;
+    transition: height 0.8s ease; 
+    border-radius: 50% 50% 0 0; 
+}
+.btn4:hover::before{
+    height: 180%;
+}
+.btn5 {
+    margin-top: 10px;
+    width: 85px;
+    height: 35px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 15px;
+    background-color: white;
+    color: #5f2696;
+    border: 2px solid #5f2696;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: sans-serif;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1; 
+}
+.btn5:hover{
+    color: white;
+}
+.btn5::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #5f2696; 
+    z-index: -1;
+    transition: height 0.8s ease; 
+    border-radius: 50% 50% 0 0; 
+}
+.btn5:hover::before{
+    height: 180%;
+}
+.Screen{
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 75px;
+    width: 750px;
+    height: 580px;
+    border-radius: 24px;
+    border-top: 3px solid #5f2696;
+    border-left: 3px solid #5f2696;
+    border-bottom: 3px solid #5f2696;
+    border-right: 3px solid #5f2696;
+}
+
+.container{
+    width: 640px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    border-radius: 14px;
+    z-index: 1;
+
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+@keyframes slide{
+    
+ 0%{
+    transform: translateX(0);
+}
+10%{
+    transform: translateX(0);
+}
+20%{
+    transform: translateX(-100%);
+}
+30%{
+    transform: translateX(-100%);
+}
+40%{
+    transform: translateX(-200%);
+}
+50%{
+    transform: translateX(-200%);
+}
+60%{
+    transform: translateX(-300%);
+}
+70%{
+    transform: translateX(-300%);
+}
+80%{
+    transform: translateX(-400%);
+}
+100%{
+    transform: translateX(-400%);
+}
+}
+.hot{
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+img{
+    width: 100%;
+}
+.flexbox {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    height: 650px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 50px;
+    padding: 20px;
+    border-top: 3px solid black;
+}
+/*Bitaog*/
+.item1 {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 14px;
+    border-top: 2px solid #5f2696;
+    border-left: 2px solid #5f2696;
+    border-bottom: 2px solid #5f2696;
+    border-right: 2px solid #5f2696;
+    flex-direction: column;
+}
+
+.item1 .image-section {
+    width: 100%;
+    height: 50%; /* Upper half for the photo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    border-radius: 14px 14px 0 0; /* Rounded corners for the image */
+}
+
+.item1 .image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 14px 14px 0 0; 
+}
+
+.item1 .description-section {
+    width: 100%;
+    height: 50%; 
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically */
+    justify-content: flex-start; /* Align items at the top */
+    align-items: flex-start; /* Align items to the left */
+    text-align: left; /* Align text to the left */
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 0 0 14px 14px; /* Rounded bottom corners */
+}
+/*Description padding*/
+.item1 .description-section h2,
+.item1 .description-section h4,
+.item1 .description-section p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove any padding */
+    padding-left: 20px; /* Add padding to the left */
+    padding-right: 20px;
+    padding-top: 10px;  /* Add padding to the top */
+    word-wrap: break-word; /* Allows long words to wrap to the next line */
+    word-break: break-word; /* Ensures long words break to prevent overflow */
+    white-space: normal;  /* Allows text to wrap naturally */
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*El nido*/
+.item2 {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 14px;
+    border-top: 2px solid #5f2696;
+    border-left: 2px solid #5f2696;
+    border-bottom: 2px solid #5f2696;
+    border-right: 2px solid #5f2696;
+    flex-direction: column;
+}
+.item2 .image-section {
+    width: 100%;
+    height: 50%; /* Upper half for the photo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    border-radius: 14px 14px 0 0; /* Rounded corners for the image */
+}
+
+.item2 .image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 14px 14px 0 0; 
+}
+
+.item2 .description-section {
+    width: 100%;
+    height: 50%; 
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically */
+    justify-content: flex-start; /* Align items at the top */
+    align-items: flex-start; /* Align items to the left */
+    text-align: left; /* Align text to the left */
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 0 0 14px 14px; /* Rounded bottom corners */
+}
+/*Description padding*/
+.item2 .description-section h2,
+.item2 .description-section h4,
+.item2 .description-section p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove any padding */
+    padding-left: 20px; /* Add padding to the left */
+    padding-right: 20px;
+    padding-top: 10px;  /* Add padding to the top */
+    word-wrap: break-word; /* Allows long words to wrap to the next line */
+    word-break: break-word; /* Ensures long words break to prevent overflow */
+    white-space: normal;  /* Allows text to wrap naturally */
+    font-family: 'Roboto', sans-serif;
+}
+/*Boracay*/
+.item3 {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 14px;
+    border-top: 2px solid #5f2696;
+    border-left: 2px solid #5f2696;
+    border-bottom: 2px solid #5f2696;
+    border-right: 2px solid #5f2696;
+    flex-direction: column;
+}
+.item3 .image-section {
+    width: 100%;
+    height: 50%; /* Upper half for the photo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    border-radius: 14px 14px 0 0; /* Rounded corners for the image */
+}
+
+.item3 .image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 14px 14px 0 0; 
+}
+
+.item3 .description-section {
+    width: 100%;
+    height: 50%; 
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically */
+    justify-content: flex-start; /* Align items at the top */
+    align-items: flex-start; /* Align items to the left */
+    text-align: left; /* Align text to the left */
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 0 0 14px 14px; /* Rounded bottom corners */
+}
+/*Description padding*/
+.item3 .description-section h2,
+.item3 .description-section h4,
+.item3 .description-section p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove any padding */
+    padding-left: 20px; /* Add padding to the left */
+    padding-right: 20px;
+    padding-top: 10px;  /* Add padding to the top */
+    word-wrap: break-word; /* Allows long words to wrap to the next line */
+    word-break: break-word; /* Ensures long words break to prevent overflow */
+    white-space: normal;  /* Allows text to wrap naturally */
+    font-family: 'Roboto', sans-serif;
+}
+/*Button for each flexbox*/
+.Checkbtn {
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+    color: #5f2696;
+    border: 2px solid #5f2696;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: sans-serif;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1; 
+}
+.Checkbtn:hover{
+    color: white;
+}
+.Checkbtn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #5f2696; 
+    z-index: -1;
+    transition: height 0.8s ease; 
+    border-radius: 50% 50% 0 0; 
+}
+.Checkbtn:hover::before{
+    height: 180%;
+}
+
+/*.item1 .checkout{
+    width: 250px;
+    height: 200px;
+    border-radius: 14px;
+    border-top: 2px solid #5f2696;
+    border-left: 2px solid #5f2696;
+    border-bottom: 2px solid #5f2696;
+    border-right: 2px solid #5f2696;
+    display: flex; /* Enables flexbox within checkout */
+     /*justify-content: center; Centers content horizontally inside checkout */
+     /*align-items: center; Centers content vertically inside checkout */
+     /*margin: 0;  Ensures no margins interfere with centering 
+    margin: 20px 0 20px 0 ;
+}
+*/

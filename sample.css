@@ -1,0 +1,29 @@
+/* Flexbox container */
+.flex-container {
+    display: flex;
+    justify-content: space-around; /* Adjusts space between items */
+    align-items: center; /* Centers items vertically */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Flex items */
+.flex-item {
+    background-color: #4CAF50; /* Green background */
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    flex: 1; /* Each item takes equal space */
+    margin: 5px; /* Adds space between items */
+}
+
+/* Editing individual items */
+.flex-item:first-child {
+    background-color: #2196F3; /* Change background for the first item */
+}
+
+.flex-item:last-child {
+    background-color: #FF5722; /* Change background for the last item */
+}
